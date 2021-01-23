@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script>
+        let n = prompt ('n=?')
+        let result =''
+        let num = 0
+    function draw (n) {
+            for (let i = 1; i <= n; i++){
+                for (let j=1; j <=n; j++) {
+                   num++;
+                   result = result.concat(num);
+                }
+                result = result.concat("\n")
+            }
+                        
+        return result
+    }
+        alert (draw(n))
+    </script>
+</body>
+</html>
